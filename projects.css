@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100; /* Ensures the video is behind other content */
+    overflow: hidden;
+}
+header {
+    background: linear-gradient(to bottom, #c58b5b 0%, #c58b5b 50%);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 10vh;
+    border-bottom: 2px solid #683820;
+}
+header a{
+    text-decoration: none;
+}
+header a h1 {
+    margin-right: 650px;
+    color: white;
+    cursor: pointer;
+}
+header h1:hover{
+    color: #121a14;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+header ul li {
+    margin-left: 10px;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-right: 40px;
+    cursor: pointer;
+}
+
+a:hover{
+    color:#121a14;
+}
+footer {
+    height: 10vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    color: white;
+}
+
+.container{
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.container .top{
+    height: 20vh;
+    color: white;
+}
+.container .top p{
+    height: 1.2rem;
+}
+.container .top .box{
+    height: 10rem;
+    display: flex;
+    gap: 0.8rem;
+    align-items: center;
+    flex-direction: row;
+}
+
+.container .middle{
+    height: 20vh;
+    color: white;
+}
+.container .middle p{
+    height: 1.2rem;
+}
+.container .middle .box{
+    height: 10rem;
+    display: flex;
+    gap: 0.8rem;
+    align-items: center;
+    flex-direction: row;
+}
+
+.container .bottom{
+    height: 20vh;
+    color: white;
+}
+.container .bottom p{
+    height: 1.2rem;
+}
+.container .bottom .box{
+    height: 10rem;
+    display: flex;
+    gap: 0.8rem;
+    align-items: center;
+    flex-direction: row;
+}
+

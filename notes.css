@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    font-family: 'Times New Roman', Times, serif;
+}
+body {
+    background: url(/IMG/notesbg.jpg) no-repeat center center fixed;
+    /* background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; */
+}
+header {
+    background: linear-gradient(to bottom, #11a159 0%, #5add8d 50%);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 10vh;
+    border-bottom: 2px solid green;
+}
+header a{
+    text-decoration: none;
+}
+header a h1 {
+    margin-right: 650px;
+    color: white;
+    cursor: pointer;
+}
+header h1:hover{
+    color: rgb(108, 174, 215);
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+header ul li {
+    margin-left: 10px;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-right: 40px;
+    cursor: pointer;
+}
+a:hover{
+    color: rgb(108, 174, 215);
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 15px;
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.container .top{
+    height: 35vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 9rem;
+}
+
+.container .top .html{
+    height: 10rem;
+    width: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container .top .css{
+    height: 10rem;
+    width: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container .top .javascript{
+    height: 10rem;
+    width: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container .top .java{
+    height: 10rem;
+    width: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container .top .php{
+    height: 10rem;
+    width: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container .top a{
+    color: white;
+    font-size: 0.8rem;
+
+}
+
+.container .bottom{
+    height: 35vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 9rem;
+}
+
+.container .bottom .python{
+    height: 10rem;
+    width: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container .bottom .django{
+    height: 10rem;
+    width: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container .bottom .sql{
+    height: 10rem;
+    width: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container .bottom .c{
+    height: 10rem;
+    width: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container .bottom .c2{
+    height: 10rem;
+    width: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container .bottom a{
+    color: white;
+    font-size: 0.8rem;
+}
+
+footer {
+    height: 5vh;
+    color:white;
+    margin-top: 40px;
+}
+footer p{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    color: white;
+}

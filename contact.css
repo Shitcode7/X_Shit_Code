@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    font-family: 'Times New Roman', Times, serif;
+}
+body {
+    background: url(/IMG/contactbg.jpeg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+header {
+    background: linear-gradient(to bottom, #92CCf7 0%, #308DCA 50%);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 10vh;
+    border-bottom: 2px solid rgb(33, 105, 200);
+}
+header a{
+    text-decoration: none;
+}
+header a h1 {
+    margin-right: 650px;
+    color: white;
+    cursor: pointer;
+}
+header h1:hover{
+    color: rgb(108, 174, 215);
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+header ul li {
+    margin-left: 10px;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-right: 40px;
+    cursor: pointer;
+}
+a:hover{
+    color: rgb(108, 174, 215);
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* border: 3px solid blue; */
+    margin-top: 20vh;
+    margin-left: 30vw;
+    margin-right: 30vw;
+    margin-bottom: 19vh;
+}
+.box .socails{
+    display: flex;
+    justify-content: center;
+    border:1px solid black;
+}
+.box h2{
+    margin: 30px;
+}
+.box img{
+    height: 100px;
+    margin-bottom: 30px;
+    border-radius: 50%;
+}
+.box .socails .email #email{
+    height: 40px;
+}
+.box .socails .github #github{
+    height: 40px;
+}
+.box .socails .insta #insta{
+    height: 40px;
+}
+.box .socails .telegram #telegram{
+    height: 40px;
+}
+
+footer {
+    height: 10vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    color:black;
+}
